@@ -1,0 +1,29 @@
+body {
+    background-color: darkgrey;
+}
+
+h1 {
+    background-color: grey;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    outline: auto;
+}
+
+ul {
+    background-color: grey;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    outline: auto;
+    outline-style: dashed;
+    outline-color: black;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
