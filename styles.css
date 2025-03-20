@@ -1,43 +1,24 @@
+
 body {
-    background-color: darkgrey;
+    background-color: #2E6F40;
 }
-
-h1, h2, h3, a {
-    background-color: grey;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+h1, ul {
     text-align: center;
-    outline: auto;
+    padding: 8px;
+    margin: 16px auto;
+    background-color: #CFFFDC;
+    color: #253D2C;
 }
 
-ul, ol, p {
-    background-color: grey;
-    text-align: center;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-size: 20px;
-    outline: auto;
-    outline-style: dashed;
-    outline-color: black;
-}
-
-ol {
+ul {
     text-align: left;
+    margin:16px 16px;
 }
 
-li {
-    font-family: 'Courier New', Courier, monospace;
+.recipes {
+    padding: 8px;
+    margin: 8px;
+    display: inline-block;
+    border: #253D2C solid;
 }
 
-img {
-    outline-style: solid;
-    outline-color: white;
-    display: block;
-    margin: auto;
-}
-
-a {
-    display: block;
-    padding: 5px;
-}
